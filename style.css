@@ -1,0 +1,134 @@
+
+body {
+    background-color: #111;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.header {
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .header h1{
+    margin: 0;  
+    text-align: center;
+ }
+.rodape{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 8px;
+    background-color: #333;
+    text-align: center;
+    size: 20px;
+}
+
+footer img{
+    width: 45px;
+    height: 45px;
+    
+}
+img{
+    opacity: 0.8;
+}
+img:hover{
+    opacity: 1.0;
+}
+img.face{
+    float: left;
+    padding: 28px 0 0 0;
+    margin: 0;
+    max-width: 200px;
+}
+img.faceright{
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0;
+    max-width: 300px;
+}
+.foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+h2,h4{
+    color: aliceblue;
+}
+h3{
+    color: #333;
+}
+
+.trava {
+    background-color: #111;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color:  goldenrod;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+    background-color: goldenrod;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+p {
+    color: goldenrod;
+}
+.active{
+    color: goldenrod;
+
+}
+div{
+    padding-left: 50px;
+    padding-right: 350px;
+    text-align: left;
+}
+footer div{
+    padding: 0px;
+}
+.divi{
+    padding-right: 50px;
+    padding-left: 400px;
+    text-align: right;
+}
+.centro{
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+a:hover{
+    color:goldenrod;
+}
